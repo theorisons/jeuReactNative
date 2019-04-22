@@ -32,10 +32,10 @@ export const fonctionGestion = (etatCourant, action) => {
   );
   etatCourant.obstacle = deplacementObstacle(etatCourant.obstacle);
 
-  // if (gererCollision(etatCourant)) {
-  //   action.etat = "repos";
-  //   action.collision = true;
-  // }
+  if (gererCollision(etatCourant)) {
+    action.etat = "repos";
+    action.collision = true;
+  }
 
   return [etatCourant, action];
 };
