@@ -1,4 +1,4 @@
-# Jeu 2D avec ReactNative 
+# Jeu 2D en ReactNative 
 
 ## Présentation
 
