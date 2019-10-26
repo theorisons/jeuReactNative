@@ -9,14 +9,14 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "^31.0.6",
-    "react": "16.5.0",
+    "expo": "^35.0.0",
+    "react": "16.11.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
-    "react-redux": "^6.0.1",
+    "react-redux": "^7.1.1",
     "redux": "^4.0.4",
-    "redux-persist": "^5.10.0"
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.2.0"
+    "babel-preset-expo": "^7.1.0"
   }
 }
